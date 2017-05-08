@@ -21,8 +21,8 @@ ________|_1___|__5___|__10_|
   100000|.0016|.0015 |.0016|
   
   Based on this data, we realize that sometimes having more threads does not always make something more efficient. If one has a 
-  large amount of data to make calculations for, generally more threads will aid in improving the processign speed. However, 
+  large amount of data to make calculations for, generally more threads will aid in improving the processing speed. However, 
   after a certain point, the rate of creating threads to perform sub tasks slows the program down as it would just be faster to perform 
-  the operation with fewer threads. For example, if one had to add together 10 terms, and that person had a thread for each term,
-  compilation time for this program will be noticeably longer than just using one thread to add all the terms together. So, although
+  the operation with fewer threads. For example, if one had to add together 10000 terms, and that person had a thread for each term,
+  execution time for this program would be noticeably longer than just using one thread to add all the terms together. So, although
   threads can be used to improve a program's running speed, they are not always more effective at running the program. 
