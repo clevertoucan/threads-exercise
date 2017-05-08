@@ -1,0 +1,20 @@
+Here are our results for computing the maximum value and the sum with increasing 
+numbers of threads and data sets:
+
+Format will be as follows:
+
+           # of Threads
+          ________________
+  Size of|
+Data Set |
+         |
+         
+       
+________|_1__|__2__|__5__|___25__|__1000__|__________
+      10|    |     |     |   -   |    -   |
+     100|    |     |     |       |    -   |
+    1000|    |     |     |       |        |
+   10000|    |     |     |       |        |
+  100000|    |     |     |       |        |
+ 1000000|    |     |     |       |        |
+10000000|    |     |     |       |        |
